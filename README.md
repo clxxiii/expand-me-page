@@ -10,3 +10,7 @@ Adds a button at the end of the me! section to expand the me! page to the length
 Ensure you have Tampermonkey/Greasemonkey installed and enabled. 
 
 Click [here](https://github.com/clxxiii/expand-me-page/raw/master/expand-me-section.user.jss) to install the script.
+
+## Issue Reporting
+
+This script was made in about 3 hours, so there's bound to be compatibility issues. If you run into any issues Please report them using [the GitHub issue tracker](https://github.com/clxxiii/expand-me-page/issues/new)
