@@ -4,17 +4,19 @@
 // @author clxxiii
 // @description Expands the me! page without a the click of a button
 // @grant    none
-// @include https://osu.ppy.sh/*
+// @include https://osu.ppy.sh/*, https://lazer.ppy.sh/*
 // ==/UserScript==
 
 function addGlobalStyle(css) {
-    var head, style;
-    head = document.getElementsByTagName('head')[0];
-    if (!head) { return; }
-    style = document.createElement('style');
-    style.type = 'text/css';
-    style.innerHTML = css;
-    head.appendChild(style);
+	var head, style;
+	head = document.getElementsByTagName("head")[0];
+	if (!head) {
+		return;
+	}
+	style = document.createElement("style");
+	style.type = "text/css";
+	style.innerHTML = css;
+	head.appendChild(style);
 }
 
 addGlobalStyle(`
@@ -30,4 +32,4 @@ addGlobalStyle(`
   .page-extra--userpage {
   padding-bottom: 0 !important
   }
-`)
+`);
