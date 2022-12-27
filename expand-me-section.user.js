@@ -4,7 +4,8 @@
 // @author clxxiii
 // @description Adds an 'Expand' button to the me! page that expands the me! section to the content length
 // @grant    none
-// @include https://osu.ppy.sh/*, https://lazer.ppy.sh/*
+// @match https://osu.ppy.sh/*
+// @match https://lazer.ppy.sh/*
 // ==/UserScript==
 
 function addGlobalStyle(css) {

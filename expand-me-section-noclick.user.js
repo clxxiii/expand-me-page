@@ -4,7 +4,8 @@
 // @author clxxiii
 // @description Expands the me! page without a the click of a button
 // @grant    none
-// @include https://osu.ppy.sh/*, https://lazer.ppy.sh/*
+// @match https://osu.ppy.sh/*
+// @match https://lazer.ppy.sh/*
 // ==/UserScript==
 
 function addGlobalStyle(css) {
